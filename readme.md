@@ -2,7 +2,7 @@
 
 ![IMG1](https://img.shields.io/badge/DONE%20WITH%20THE%20HELP-HTML%20AND%20CSS-red)
 
-![IMG2](https://img.shields.io/badge/LIVE-LINK-blue)  [LINK]()
+![IMG2](https://img.shields.io/badge/LIVE-LINK-blue)  [LINK](https://63b0232bb07b3718fff698d5--endearing-paletas-c2c690.netlify.app)
 
 ![IMG3](https://img.shields.io/badge/OUTPUTS-ACHIEVED-brightgreen)
 

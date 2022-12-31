@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* STYLE FOR NAVBAR AND HERO */
+.hero{
+    color: #fff;
+    background: linear-gradient(rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.7)), url('./Photos/mainBackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 900px;
+    padding: 0 100px;
+}
+
+.navimg{
+    position: relative;
+    top: 30px;
+    left:46px;
+    
+}
+.nav ul  {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-left: 700px;
+    
+    
+}
+.navlist li {
+    list-style: none;
+    font: small-caps bold 24px/1 sans-serif;
+    color: #fff;
+    
+}
+.navlist li:hover{
+    color: #6663E9;
+    cursor: pointer;
+}
+.navborder{
+    padding-top: 30px;
+    border-bottom: 1px solid white;
+}
+/* STYLE FOR HERO BOTTOM */
+.hero-bottom{
+    margin-top: 160px;
+    margin-left: 50px;
+}
+.hero-bottom-head{
+    font:64px  "Gill Sans", sans-serif;
+    font-weight: 700;
+    line-height: 150%;
+    transition: all 1.5s ease-out;
+}
+.hero-bottom-para{
+    font:20px  "Gill Sans", sans-serif;
+    font-weight: 300;
+    line-height: 150%;
+    margin-top: 30px;
+}
+.herobtn{
+    background-color:#6663E9 ;
+    color: #fff;
+    font:20px "Gill Sans", sans-serif;
+    padding: 30px 80px;
+    border-radius: 40px;
+    margin-top: 42px;
+    border: none;
+
+}
+.logos{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px #CAD5E2;
+    padding: 50px 70px;
+    border-radius: 30px;
+    margin-top: 120px;
+    border: 3px solid #CAD5E2;
+
+    
+  transform: scale(1) rotate(0);
+}
+.logos.has-transition {
+  transition: transform 750ms ease-in-out 0s;
+}
+
+.logos:is(:hover, :focus) {
+  transform: scale(1.5) rotate(135deg);
+}
+
+
+
+.herobtn.td-middling {
+    transition-duration: 800ms;
+  }
+
+  .herobtn:is(:hover, :focus) {
+    transform: scale(0.8);
+  }
+
+  
+  .hero-bottom-head:hover,.hero-bottom-head:focus{
+    color: #6663E9;
+    /* background-color: #fff; */
+    border-radius: 40px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+  }
+  /* STYLE FOR BEST ESTATE */
+  .best{
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 60px;
+  }
+  .best-top h1{
+    text-align: center;
+    color:#0D0D0D ;
+    font:48px "Gill Sans", sans-serif;
+    font-weight: 900;
+    line-height: 150%;
+    margin-top: 50px;
+  }
+  /* STYLE FOR BEST ESTAE */
+  .rows{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    
+  }
+  .row1{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card1{
+    background: url('./Photos/cardImage1.png');
+    background-size: 100% 100%;
+    height: 400px;
+    width: 380px;
+    border-radius: 20px;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+  }
+  .card1 .tp-transform {
+    transition-property: transform;
+  }
+
+  .card1:is(:hover, :focus) {
+    transform: scale(1.3);
+    background-color: #5351d7;
+   
+  }
+  
+  
+  /* .card1:hover{
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  } */
+  .card-bottom{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-top: 330px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border: 1px solid  #CAD5E2;
+    box-shadow: 9px 9px 9px #CAD5E2;
+  }
+  .card-bottom-price h3{
+    font:24px "Gill Sans", sans-serif;
+    line-height: 150%;
+    font-weight: 600;
+    margin-right: 20px;
+  }
+  .card-bottom-price h3 span{
+    color: #6663E9;
+    font:24px "Gill Sans", sans-serif;
+    font-weight: 600;
+  }
+  .btn1{
+    font:16px "Gill Sans", sans-serif;
+    padding: 15px 60px;
+    background-color:#6663E9;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+  }
+  .card2{
+    background: url('./Photos/cardImage2.png');
+    background-size: 100% 100%;
+    height: 400px;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+  }
+  .card2 .tp-transform {
+    transition-property: transform;
+  }
+
+  .card2:is(:hover, :focus) {
+    transform: scale(1.3);
+    background-color: #5351d7;
+   
+  }
+  
+  .card3{
+    background: url('./Photos/cardImage3.png');
+    background-size: 100% 100%;
+    height: 400px;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 60px;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+  }
+  .card3 .tp-transform {
+    transition-property: transform;
+  }
+
+  .card3:is(:hover, :focus) {
+    transform: scale(1.3);
+    background-color: #5351d7;
+   
+  }
+  
+  .row2{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card4{
+    background: url('./Photos/cardImage4.png');
+    background-size: 100% 100%;
+    height: 400px;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 120px;
+
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+  }
+  .card4 .tp-transform {
+    transition-property: transform;
+  }
+
+  .card4:is(:hover, :focus) {
+    transform: scale(1.3);
+    background-color: #5351d7;
+   
+  }
+
+  .card5{
+    background: url('./Photos/cardImage5.png');
+    background-size: 100% 100%;
+    height: 400px;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 70px;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+    
+  }
+  .card5 .tp-transform {
+    transition-property: transform;
+  }
+
+  .card5:is(:hover, :focus) {
+    transform: scale(1.3);
+    background-color: #5351d7;
+   
+  }
+  .card6{
+    background: url('./Photos/cardImage6.png');
+    background-size: 100% 100%;
+    height: 400px;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 40px;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+  }
+  .card6 .tp-transform {
+    transition-property: transform;
+  }
+
+  .card6:is(:hover, :focus) {
+    transform: scale(1.3);
+    background-color: #5351d7;
+   
+  }
+  .row3{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card7{
+    background: url('./Photos/cardImage7.png');
+    background-size: 100% 100%;
+    height: 400px;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 40px;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+  }
+  .card7 .tp-transform {
+    transition-property: transform;
+  }
+
+  .card7:is(:hover, :focus) {
+    transform: scale(1.3);
+    background-color: #5351d7;
+   
+  }
+  .card8{
+    background: url('./Photos/cardImage8.png');
+    background-size: 100% 100%;
+    height: 400px;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 70px;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+  }
+  .card8 .tp-transform {
+    transition-property: transform;
+  }
+
+  .card8:is(:hover, :focus) {
+    transform: scale(1.3);
+    background-color: #5351d7;
+   
+  }
+  .card9{
+    background: url('./Photos/cardImage9.png');
+    background-size: 100% 100%;
+    height: 400px;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 100px;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+  }
+  .card9 .tp-transform {
+    transition-property: transform;
+  }
+
+  .card9:is(:hover, :focus) {
+    transform: scale(1.3);
+    background-color: #5351d7;
+   
+  }
+  /* STYLE FOR MODERN TRENDY AND UNQUE HOUSE */
+  .house{
+    background-color: #fff;
+    display: flex;
+    margin-top: 90px;
+  }
+  
+  .house1-left-img{
+    width: 488px;
+    height: 460px;
+    border-radius: 40px;
+    /* position: relative;
+    bottom: 600px;
+    left: 157px; */
+    position: absolute;
+    
+    left: 160px;
+
+  }
+  .house1-head{
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+  .house1-head h1{
+    font:42px "Gill Sans", sans-serif;
+    font-weight: 900;
+    line-height: 150%;
+  }
+  .house1-head p{
+    font:16px "Gill Sans", sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+    padding-top: 30px;
+  }
+  .btn2{
+    font:16px "Gill Sans", sans-serif;
+    padding: 15px 60px;
+    background-color:#6663E9;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+   margin-top: 50px;
+  }
+  .house2{
+    background-color: #fff;
+    display: flex;
+    padding-left: 30px;
+  }
+  .house2-right{
+    display: flex;
+    padding-left: 305px;
+  }
+  .house2-right-img{
+    display: flex;
+   
+    width: 488px;
+    height: 460px;
+    border-radius: 40px;
+    position: absolute;
+    margin-left: 58px;
+    
+  }
+  /* STYLE FOR SUBSCRIPTION */
+  .subscribe{
+    background-color:#6663E9;
+    color: #fff;
+    margin: 0 4rem;
+    border-radius: 60px;
+    padding: 5rem 16rem;
+    text-align: center;
+}
+.subscribe h1{
+  font:48px "Gill Sans", sans-serif;
+  font-weight: 900;
+}
+.subscribe  p{
+    
+    font:16px "Gill Sans", sans-serif;
+    line-height: 150%;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sub-input{
+display: flex;
+justify-content: space-evenly;
+padding-top: 30px;
+
+
+}
+input{
+    width:70%;
+    border-radius: 30px;
+    border: none;
+    background-color: #5351d7;
+    color:#fff;
+    border: none;
+  }
+.email{
+    position: relative;
+    top: .7rem;
+    left: 3.5rem;
+}
+.email2{
+  border: none;
+  color: #fff;
+}
+.email2:focus{
+  color: #fff;
+  border: none;
+}
+.btn3{
+  font:16px "Gill Sans", sans-serif;
+  padding: 15px 60px;
+  background-color:#fff;
+  color: #5351d7;
+  border-radius: 30px;
+  border: none;
+}
+/* STYLE FOR FOOTER */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 8rem;
+}
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.3rem;
+  width: 350px;
+  padding-top: 2rem;
+}
+.footer-imgs > img{
+  margin: .4rem;
+}
+.footer-right{
+  display: flex;
+  gap: 10rem;
+}
+.footer-right h2{
+  font:32px "Gill Sans", sans-serif;
+  font-weight: 600;
+}
+.footer-desc{
+  font:20px "Gill Sans", sans-serif;
+  font-weight: 300;
+}
+.footer-right > ul > li{
+padding-top: 30px;
+font:20px "Gill Sans", sans-serif;
+font-weight: 300;
+list-style: none;
+}
+
+  
